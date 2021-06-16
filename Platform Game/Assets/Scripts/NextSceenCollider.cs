@@ -6,6 +6,7 @@ public class NextSceenCollider : MonoBehaviour
 {
   private void OnTriggerEnter2D(Collider2D collision)
   {
-      SceneManager.LoadScene("Level 2");
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
   }
 }

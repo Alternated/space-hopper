@@ -678,8 +678,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 4.3, y: -112.4}
-  m_SizeDelta: {x: 347.12585, y: 105.51123}
+  m_AnchoredPosition: {x: 13, y: -112.4}
+  m_SizeDelta: {x: 596.28107, y: 105.51123}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1129070919
 MonoBehaviour:
@@ -700,7 +700,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: JUMP!
+  m_text: Planet Hopper
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 338778282af0945c69d0a3fd7298b70a, type: 2}
   m_sharedMaterial: {fileID: -2852275976001123540, guid: 338778282af0945c69d0a3fd7298b70a,
@@ -728,8 +728,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
